@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;
+  background: linear-gradient(to bottom, #cc00ff 0%, #00cc00 100%);
+}
+
+.bg-verde,
+.table-verde,
+.btn-verde,
+.text-verde {
+  background-color: #CAE752;
+}
+.bg-verdoso {
+  background-color: #5caa18;
+}
+.bg-tostado {
+  background-color: #FBA00F;
+}
+.bg-malaga {
+  background: linear-gradient(to bottom, #cc00ff 0%, #00cc00 100%);
+}
+.bg-indigo {
+  background-color: #6610f2;
+}
+.bg-amarillo {
+  background-color: #ffc107;
+}
+.bg-naranja {
+  background-color: #fd7e14;
+}
+.bg-rojo {
+  background-color: #dc3545;
+}
+.bg-turquesa,
+.btn-turquesa {
+  background-color: #20c997;
+}
+
+
+/*añado responsive de la tabla a tamaño movil*/
+.table-responsive-stack tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+
+.table-responsive-stack td,
+.table-responsive-stack th {
+   display:block;
+ /*flex-grow | flex-shrink | flex-basis  */ 
+   -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.table-responsive-stack,
+.table-responsive-stack-thead {
+   font-weight: bold;
+}
+
+@media screen and (max-width: 868px) { 
+   .table-responsive-stack tr {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column column;
+              flex-direction: column;
+      border-bottom: 3px solid #ccc;
+      display:block;
+      
+   }
+    /* IE9 FIX   */
+   .table-responsive-stack td {
+      float: left\9;
+      width:100%;
+   }
+}
+
+/*estilo del buscador*/
+* {
+  box-sizing: border-box;
+}
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #ff610694;
+}

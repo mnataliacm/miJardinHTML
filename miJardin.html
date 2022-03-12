@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tu Jardín</title>
+  <link rel="shortcut icon" href="./imagenes/iconoflor.png" type="image/x-icon">
+  <!-- CSS bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- ICONOS bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- CSS mio -->
+  <link rel="stylesheet" href="./estilo/style.css">
+</head>
+
+<body class="bg-success">
+  <div id="wraper" class="container-flex text-center">
+
+    <!-- barra de navegación -->
+    <nav class="navbar navbar-expand-xl navbar-light bg-naranja sticky-top justify-content-between">
+      <div class="container-fluid fs-5">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-flower1" aria-hidden="true"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="formularioRegistro.html">Registrar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="buscador.html">Lista de Plantas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="miJardin.html">Mi Jardin</a>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="zonaAdmin.html">Zona Admin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="zonaColaborador.html">Zona Colaborador</a>
+          </li>
+        </ul>
+          </ul>
+          <form class="form-inline ml-5">
+            <a class="btn-lg btn-turquesa text-white p-2" href="formularioLogin.html">Iniciar sesión</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- listado de plantas del jardin del usuario-->
+    <div class="container-flex m-3">
+      <div class=" panel">
+        <h2 class="panel-heading text-center bg-turquesa">Jardín de Natalia</h2>
+      </div>
+      <div class="container-flex text-center">
+        <table>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Kiwi</h4>
+                </div>
+                <div class="card-body">
+                  <img
+                    src="https://c.pxhere.com/photos/f5/8f/kiwi_fruit_vitamins_healthy_fruits_food_green_benefit_from-235717.jpg!d"
+                    class="card-img-top">
+                  <p class="card-text">
+                  <h6 class="card-title">Atinidia chinensis</h6>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <h5>Actinidiaceae</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Fresa</h4>
+                </div>
+                <div class="card-body">
+                  <img src="https://www.publicdomainpictures.net/pictures/10000/velka/1275-1242405379zfLe.jpg"
+                    class="card-img-top">
+                  <p class="card-text">
+                  <h6 class="card-title">Fragaria</h6>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <h5>Rosaceae</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Granado</h4>
+                </div>
+                <div class="card-body">
+                  <img src="https://c.pxhere.com/photos/89/af/granada_open_grow_up_magrana-849144.jpg!d"
+                    class="card-img-top">
+                  <p class="card-text">
+                  <h6 class="card-title">Púnica granatum</h6>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <h5>Punicaeae</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <h4>Pensamientos</h4>
+                </div>
+                <div class="card-body">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2015/04/21/03/45/flower-732653_960_720.jpg"
+                    class="card-img-top">
+                  <p class="card-text">
+                  <h6 class="card-title">Viola tricolor</h6>
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <h5>Violaceae</h5>
+                </div>
+              </div>
+            </div>
+          </div> <!-- fin row -->
+        </table>
+      </div> <!-- cierre container lista -->
+    </div>
+  </div> <!-- fin wraper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="./js/javascript.js"></script>
+</body>
+
+</html>
