@@ -71,7 +71,7 @@ body {
   }
   /* IE9 FIX   */
   .table-responsive-stack td {
-    float: left-9;
+    float: left;
     width: 100%;
   }
 }
