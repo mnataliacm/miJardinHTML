@@ -1,0 +1,13 @@
+Todo el CSS sacado de:
+https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
+Los iconos de:
+https://icons.getbootstrap.com/
+
+Personalizado con la ayuda de:
+https://www.w3schools.com/
+https://www.w3schools.com/colors/colors_gradient.asp --> para el background
+
+El buscador:
+https://www.w3schools.com/howto/howto_js_filter_table.asp
+

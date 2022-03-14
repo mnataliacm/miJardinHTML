@@ -39,6 +39,9 @@
               <a class="nav-link" href="buscador.html">Lista de Plantas</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="zonaUsuario.html">Zona Usuario</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" aria-current="page" href="miJardin.html">Mi Jardin</a>
             </li>
             <li class="nav-item">
@@ -73,8 +76,8 @@
         <h2 class="panel-heading text-center bg-verde p-2">BASE DE DATOS DE PLANTAS</h2>
       </div>
       <!-- añadir planta -->
-      <table class="table table-verde table-responsive-stack">
-        <form method="post" action="">
+      <table class="table table-verde table-responsive">
+        <form method="post" action="editarPlanta.html">
           <tr class="table-warning">
             <td><input type="text" size="10" name="codpla" placeholder="Id planta" required></td>
             <td><input type="text" name="nombre" size="25" placeholder="nombre" required></td>
@@ -110,7 +113,7 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="">
+                <form method="post"action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
@@ -120,6 +123,7 @@
                   </button>
                 </form>
               </td>
+              <!-- eliminar -->
               <td>
                 <form method="post" action="">
                   <input type="hidden" name="codpla">
@@ -138,7 +142,7 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="">
+                <form method="post" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
@@ -148,6 +152,7 @@
                   </button>
                 </form>
               </td>
+              <!-- eliminar -->
               <td>
                 <form method="post" action="">
                   <input type="hidden" name="codpla">
@@ -166,7 +171,7 @@
                   imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="">
+                <form method="post" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
@@ -176,6 +181,7 @@
                   </button>
                 </form>
               </td>
+              <!-- eliminar -->
               <td>
                 <form method="post" action="">
                   <input type="hidden" name="codpla">
@@ -194,7 +200,7 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="">
+                <form method="post" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
@@ -204,6 +210,7 @@
                   </button>
                 </form>
               </td>
+              <!-- eliminar -->
               <td>
                 <form method="post" action="">
                   <input type="hidden" name="codpla">
@@ -222,7 +229,7 @@
                   imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="">
+                <form method="post" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
@@ -232,6 +239,7 @@
                   </button>
                 </form>
               </td>
+              <!-- eliminar -->
               <td>
                 <form method="post" action="">
                   <input type="hidden" name="codpla">
