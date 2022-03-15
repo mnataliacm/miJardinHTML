@@ -77,7 +77,7 @@
       </div>
       <!-- añadir planta -->
       <table class="table table-verde table-responsive">
-        <form method="post" action="editarPlanta.html">
+        <form method="get" action="editarPlanta.html">
           <tr class="table-warning">
             <td><input type="text" size="10" name="codpla" placeholder="Id planta" required></td>
             <td><input type="text" name="nombre" size="25" placeholder="nombre" required></td>
@@ -100,8 +100,6 @@
               <th>Cientifico</th>
               <th>Familia</th>
               <th>Imagen</th>
-              <!-- añado este enlace para que se pueda ver ya que falla el de abajo hasta añadiendo enlace a los botones -->
-              <th><a class="nav-link" aria-current="page" href="editarPlanta.html">Formulario Plantas</a></th>
             </tr>
           </thead>
           <tbody>
@@ -115,27 +113,23 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="editarPlanta.html">
+                <form method="get" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
                   <input type="hidden" name="familia">
                   <input type="hidden" name="foto">
-                  <a class="nav-link" aria-current="page" href="editarPlanta.html">
                     <button type="submit" class="btn btn-info"><span class="bi bi-pencil-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
 
               <!-- eliminar -->
               <td>
-                <form method="post">
+                <form method="get">
                   <input type="hidden" name="codpla">
-                  <a class="nav-link" aria-current="page" href="">
                     <button type="submit" class="btn btn-danger"><span class="bi bi-trash-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
             </tr>
@@ -148,26 +142,22 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="editarPlanta.html">
+                <form method="get" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
                   <input type="hidden" name="familia">
                   <input type="hidden" name="foto">
-                  <a class="nav-link" aria-current="page" href="editarPlanta.html">
                     <button type="submit" class="btn btn-info"><span class="bi bi-pencil-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
               <!-- eliminar -->
               <td>
-                <form method="post" action="">
+                <form method="get" action="">
                   <input type="hidden" name="codpla">
-                  <a class="nav-link" aria-current="page" href="">
                     <button type="submit" class="btn btn-danger"><span class="bi bi-trash-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
             </tr>
@@ -180,26 +170,22 @@
                   imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="editarPlanta.html">
+                <form method="get" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
                   <input type="hidden" name="familia">
                   <input type="hidden" name="foto">
-                  <a class="nav-link" aria-current="page" href="editarPlanta.html">
                     <button type="submit" class="btn btn-info"><span class="bi bi-pencil-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
               <!-- eliminar -->
               <td>
-                <form method="post" action="">
+                <form method="get" action="">
                   <input type="hidden" name="codpla">
-                  <a class="nav-link" aria-current="page" href="">
                     <button type="submit" class="btn btn-danger"><span class="bi bi-trash-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
             </tr>
@@ -212,26 +198,22 @@
                   target='_blank'>ver imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="editarPlanta.html">
+                <form method="get" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
                   <input type="hidden" name="familia">
                   <input type="hidden" name="foto">
-                  <a class="nav-link" aria-current="page" href="editarPlanta.html">
                     <button type="submit" class="btn btn-info"><span class="bi bi-pencil-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
               <!-- eliminar -->
               <td>
-                <form method="post" action="">
+                <form method="get" action="">
                   <input type="hidden" name="codpla">
-                  <a class="nav-link" aria-current="page" href="">
                     <button type="submit" class="btn btn-danger"><span class="bi bi-trash-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
             </tr>
@@ -244,26 +226,22 @@
                   imagen</a></td>
               <!-- modificar -->
               <td>
-                <form method="post" action="editarPlanta.html">
+                <form method="get" action="editarPlanta.html">
                   <input type="hidden" name="codpla">
                   <input type="hidden" name="nombre">
                   <input type="hidden" name="cientifico">
                   <input type="hidden" name="familia">
                   <input type="hidden" name="foto">
-                  <a class="nav-link" aria-current="page" href="editarPlanta.html">
                     <button type="submit" class="btn btn-info"><span class="bi bi-pencil-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
               <!-- eliminar -->
               <td>
-                <form method="post" action="">
+                <form method="get" action="">
                   <input type="hidden" name="codpla">
-                  <a class="nav-link" aria-current="page" href="">
                     <button type="submit" class="btn btn-danger"><span class="bi bi-trash-fill"> </span>
                     </button>
-                  </a>
                 </form>
               </td>
             </tr>
